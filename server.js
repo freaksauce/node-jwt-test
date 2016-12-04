@@ -36,7 +36,7 @@ app.get('/', function(req, res) {
 // get an instance of the router for api routes
 var apiRoutes = express.Router();
 apiRoutes.get('/', function(req, res) {
-  res.json({ message: 'Welcome to the coolest API on earth!' });
+  res.json({ message: 'Welcome to my pointless API' });
 });
 apiRoutes.get('/token', function(req, res) {
     // create a token
